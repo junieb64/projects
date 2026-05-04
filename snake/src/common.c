@@ -7,6 +7,11 @@
 // Definition of global variables for game status.
 int g_game_over;
 int g_score;
+//Definition of global variables for snake head pos and direction of movement
+//I'll need a function to go from move in 2d to 1d rep, I want that function
+//to be somewhere for least redundancy..
+int g_snek_pos;
+enum g_snek_dir {LEFT, RIGHT, UP, DOWN};
 
 /** Sets the seed for random number generation.
  * Arguments:
